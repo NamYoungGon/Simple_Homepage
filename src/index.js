@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Root from './client/Root';
 import registerServiceWorker from './registerServiceWorker';
 import { AppContainer } from 'react-hot-loader';
-import './index.css';
+import './styles/main.scss';
 
 const render = Component => {
   ReactDOM.render(

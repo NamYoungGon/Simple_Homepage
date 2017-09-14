@@ -29,11 +29,11 @@ class App extends Component {
                 { SplitMe && <SplitMe/> /* SplitMe 가 유효하면 렌더링을 해줍니다 */}
                 <button onClick={this.showSplitMe}>ClickMe</button>
                 <Route exact path="/" component={Home}/>
-                <Route path="/posts" component={Posts}/>
                 <Switch>
                     <Route path="/about/:name" component={About}/>
                     <Route path="/about" component={About}/>
                 </Switch>
+                <Route path="/posts" component={Posts}/>
             </div>
         );
     }
