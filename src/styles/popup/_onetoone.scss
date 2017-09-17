@@ -1,0 +1,23 @@
+.oto {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 284px;
+    width: 300px;
+    z-index: 99999;
+    background-color: #eee;
+    padding: 0 1rem;
+
+    .ui.vertical.segment {
+        border-bottom: 0;
+    }
+
+    &__contents-box {
+        padding-bottom: 0 !important;
+    }
+
+    &__contents {
+        overflow-y: auto;
+        height: 218px;
+    }
+}
